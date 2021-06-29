@@ -21,7 +21,7 @@ Con algo de suerte esto te sacará del apuro. Aunque de entrada te digo que en l
 
 
 # Segunda opcion
-(Plan B: necesitaras una protoboard, una resistencia de 1k y un par de cables dupont)
+(**Plan B**: necesitaras una protoboard, una resistencia de 1k y un par de cables dupont)
 
   1) Pon una resistencia de 1k en la protoboad. \* *nota1*
   2) Conecta un cable desde el pin **GPIO0** de tu ESP/Lora hasta un extremo de la resistencia.
