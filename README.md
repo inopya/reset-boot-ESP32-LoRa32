@@ -32,7 +32,7 @@ El programa deberia cargarse sin singun problema. Si no es así puedes realizar 
 En el 90% de lo casos tu placa "resucitará". Ya que la hemos forzado a entrar en modo de programacion y en cada subida de nuevo codigo el IDE restablece el bootloader 
 Por ese motivo a veces al producirse errores durante una subida, el boot se daña.
 
-  \* *nota1: Podriamos hacer un puente directamente entre IO0 y GND, pero no sabemos a priori si ese pin por algun motivo ha quedado configurado como salida en cuyo caso estariamos provocando un cortocircuito. Es cierto que tambien podriamos medir con el multimetro la salida IO0, pero tambien podia existir en ella un PWM que "nos despieste".
+  \* *nota1: Podriamos hacer un puente directamente entre IO0 y GND, pero no sabemos a priori si ese pin por algun motivo ha quedado configurado como salida (y está activo) en cuyo caso estariamos provocando un cortocircuito. Es cierto que tambien podriamos medir con el multimetro la salida IO0, pero tambien podia existir en ella un PWM que "nos despieste".
   Así que nos curaremos en salud haciendo ese puente resistivo.*
 
 
