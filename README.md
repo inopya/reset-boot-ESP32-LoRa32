@@ -23,18 +23,17 @@ Con algo de suerte esto te sacará del apuro. Aunque de entrada te digo que en l
 # Segunda opcion
 (Plan B: necesitaras una protoboard, una resistencia de 1k y un par de cables dupont)
 
-  1) Pon una resistencia de 1k en la protoboad \* *nota1*
+  1) Pon una resistencia de 1k en la protoboad. \* *nota1*
   2) Conecta un cable desde el pin GPIO0 de tu ESP/Lora hasta un extremo de la resistencia.
   3) Conecta otro cable desde un pin GND de la placa hasta el otro extremo de la resistencia.
-  4) Inicia el proceso de carga de un sketch cualquiera, por ejemplo un humilde "blink"
+  4) Inicia el proceso de carga de un sketch cualquiera, por ejemplo un humilde "blink".
 
 El programa deberia cargarse sin singun problema. Si no es así puedes realizar los pasos de la opcion 1 pero ahora con el puente resistivo establecido.
 En el 99% de lo casos tu placa "resucitará". Ya que la hemos forzado a entrar en modo de programacion y en cada subida de nuevo codigo el IDE restablece el bootloader. 
 Es por ese motivo que a veces al producirse errores durante una subida, el boot se daña.
 Y recuerda que es que hayamos conseguido subir un codigo de manera puntual, si no que hemos devuelto nuestra placa a su estado "normal" de funcionamiento.
 
-  \* *nota1: Podriamos hacer un puente directamente entre GPIO0 y GND, pero no sabemos a priori si ese pin por algun motivo ha quedado configurado como salida (y está activo) en cuyo caso estariamos provocando un cortocircuito. Es cierto que tambien podriamos medir con el multimetro la salida GPIO0, pero tambien podia existir en ella un PWM que "nos despieste"...
-  Así que nos curaremos en salud haciendo ese puente resistivo.*
+  \* *nota1: Podriamos hacer un puente directamente entre GPIO0 y GND, pero no sabemos a priori si ese pin por algun motivo ha quedado configurado como salida (y está activo) en cuyo caso estariamos provocando un cortocircuito. Es cierto que tambien podriamos medir con el multimetro la salida GPIO0, pero tambien podia existir en ella un PWM que "nos despieste"...  Así que nos curaremos en salud haciendo ese puente resistivo.*
 
 
 
@@ -44,6 +43,6 @@ Y recuerda que es que hayamos conseguido subir un codigo de manera puntual, si n
 *Puente para forzar el modo programacion a nuestra placa*
 
 
-**Si nada de esto funciona siempre nos queda la opcion de usar un adaptador/prorgamador \*FTDI\* para subir nuestro codigo.Recuerda que una vez que subamos correctamente cualquier sketch, el bootloader quedará restaurado.**
+**Si nada de esto funciona siempre nos queda la opcion de usar un \*programador FTDI\* para subir nuestro codigo. Recuerda que una vez que subamos correctamente cualquier sketch, el bootloader quedará restaurado.**
 
 
