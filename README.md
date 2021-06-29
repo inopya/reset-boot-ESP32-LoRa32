@@ -12,9 +12,9 @@ No entremos en pánico. No hemos roto nada. Lo que ocurre es que nuestro ESP32 h
 (NO es necesario ningun material extra)
 
   1) Conecta la placa por USB, como haces normalmente, para grabar en ella un nuevo programa. Uno que sepas que no tiene errores.Por ejemplo "blink".
-  2) Pulsa el boton de RESET de la placa ESP32/LoRa32 (y dejalo pulsado).
+  2) Pulsa el boton de **RESET** de la placa ESP32/LoRa32 (y dejalo pulsado).
   3) Haz la subida de dicho un sketch y sigue manteniendo pulsado el boton de RESET.
-  4) Estate atento a los mensajes que iran apareciendo por el monitor Serie del IDE  y cuando veas que empieza el proceso de carga (es decir cuando empieza a  mostrar los puntitos suspensivos y el porcentaje de carga), suelta el boton de reset.
+  4) Estate atento a los mensajes que iran apareciendo por el monitor Serie del IDE  y cuando veas que empieza el proceso de carga (es decir cuando empieza a  mostrar los puntitos suspensivos y el porcentaje de carga), suelta el boton de RESET.
   
 
 Con algo de suerte esto te sacará del apuro. Aunque de entrada te digo que en la mayoría de los casos no funciona y hemos de pasar al **Plan B**
@@ -24,8 +24,8 @@ Con algo de suerte esto te sacará del apuro. Aunque de entrada te digo que en l
 (Plan B: necesitaras una protoboard, una resistencia de 1k y un par de cables dupont)
 
   1) Pon una resistencia de 1k en la protoboad. \* *nota1*
-  2) Conecta un cable desde el pin GPIO0 de tu ESP/Lora hasta un extremo de la resistencia.
-  3) Conecta otro cable desde un pin GND de la placa hasta el otro extremo de la resistencia.
+  2) Conecta un cable desde el pin **GPIO0** de tu ESP/Lora hasta un extremo de la resistencia.
+  3) Conecta otro cable desde un pin **GND** de la placa hasta el otro extremo de la resistencia.
   4) Inicia el proceso de carga de un sketch cualquiera, por ejemplo un humilde "blink".
 
 El programa deberia cargarse sin singun problema. Si no es así puedes realizar los pasos de la opcion 1 pero ahora con el puente resistivo establecido.
