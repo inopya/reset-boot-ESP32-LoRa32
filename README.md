@@ -43,6 +43,6 @@ Y recuerda que es que hayamos conseguido subir un codigo de manera puntual, si n
 Puente para forzar el modo programacion a nuestra placa
 
 
-Si nada de esto funciona siempre nos queda la opcion de usar un adaptador/prorgamador FTDI para subir nuestro codigo.Recuerda que una vez que subamos correctamente cualquier sketch, el bootloader quedará restaurado.
+Si nada de esto funciona siempre nos queda la opcion de usar un adaptador/prorgamador **FTDI** para subir nuestro codigo.Recuerda que una vez que subamos correctamente cualquier sketch, el bootloader quedará restaurado.
 
 
