@@ -40,6 +40,7 @@ Y recuerda que es que hayamos conseguido subir un codigo de manera puntual, si n
 
 
 ![](./reset-bootloader-lora-esp-32.png)
+
 Puente para forzar el modo programacion a nuestra placa
 
 
