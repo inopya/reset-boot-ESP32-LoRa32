@@ -33,7 +33,7 @@ En el 99% de lo casos tu placa "resucitará", ya que la hemos forzado a entrar e
 Es por ese motivo que a veces al producirse errores durante una subida, el boot se daña.
 Y recuerda que no es que hayamos conseguido subir un codigo de manera puntual, si no que hemos devuelto nuestra placa a su estado "normal" de funcionamiento.
 
-  \* *nota1: Podriamos hacer un puente directamente entre GPIO0 y GND, pero no sabemos a priori si ese pin por algun motivo ha quedado configurado como salida (y está activo) en cuyo caso estariamos provocando un cortocircuito. Es cierto que tambien podriamos medir con el multimetro la salida GPIO0, pero tambien podia existir en ella un PWM que "nos despieste"...  Así que nos curaremos en salud haciendo ese puente resistivo.*
+  \* *nota1: Podriamos hacer un puente directamente entre GPIO0 y GND, pero no sabemos a priori si ese pin por algun motivo ha quedado configurado como salida (y está activo) en cuyo caso estariamos provocando un cortocircuito. Es cierto que tambien podriamos medir con el multimetro la salida GPIO0, pero tambien podia existir en ella un PWM que "nos despiste al medirlo con el multimetro"...  Así que nos curaremos en salud haciendo ese puente resistivo.*
 
 
 
